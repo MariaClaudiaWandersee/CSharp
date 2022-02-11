@@ -1,0 +1,14 @@
+using System;
+					
+public class ArrayVetor
+{
+	public static void Main()
+	{	
+		double[] valor = {10.0, 8.9, 9.9, 5.2, 1.2, 6.5, 7.6, 0.5, 9.8, 4.2};
+		
+		for (int i=0; i<10; i++)
+		{
+        	Console.WriteLine("Valores: " + valor[i]);
+		}
+	}
+}

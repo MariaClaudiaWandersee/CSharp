@@ -1,0 +1,17 @@
+using System;
+
+public class Program
+{
+public static void Main()
+{
+Console.WriteLine("---------- Cálcule a Média ----------");
+
+int nota1 = 3;
+int nota2 = 5;
+int nota3 = 10;
+
+Console.WriteLine("Qual será sua média de notas?");
+int media = nota1+nota2/nota3;
+Console.WriteLine("Resultado Final: " + media);
+}
+}

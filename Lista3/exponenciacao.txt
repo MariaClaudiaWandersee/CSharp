@@ -1,0 +1,23 @@
+using System;
+
+public class Program{
+public static void Main()
+{
+Console.WriteLine("---- Exponenciação ----");
+
+
+Console.WriteLine("Digite o número: ");
+int num= int.Parse(Console.ReadLine());
+
+
+Console.WriteLine("Digite o número: ");
+int exp = int.Parse(Console.ReadLine());
+
+double result = Math.Pow(num, exp);
+
+Console.WriteLine("\n O número" + num + " elevado ao exponente " + exp + " é igual a " + result + "\n");
+
+Console.ReadLine();
+
+}
+}

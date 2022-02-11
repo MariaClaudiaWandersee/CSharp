@@ -1,0 +1,16 @@
+using System;
+
+public class Program
+{
+public static void Main()
+{
+Console.WriteLine("---------- Cálcule a Volume----------");
+
+int vol1 = 10;
+int vol2 = 28;
+int vol3 = 50;
+
+int volume = vol1 * vol2 * vol3;
+Console.WriteLine("Resultado da área: " + volume);
+}
+}

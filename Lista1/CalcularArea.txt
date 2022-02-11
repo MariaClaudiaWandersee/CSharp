@@ -1,0 +1,15 @@
+using System;
+
+public class Program
+{
+public static void Main()
+{
+Console.WriteLine("---------- Cálcule a Área ----------");
+
+int lado1 = 10;
+int lado2 = 28;
+
+int area = lado1 * lado2;
+Console.WriteLine("Resultado da área: " + area);
+}
+}
